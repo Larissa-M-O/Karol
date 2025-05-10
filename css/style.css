@@ -29,6 +29,7 @@ body {
     background-image: url('../imagem/fundo.jpg');
     background-size: cover;
     background-position: center;
+    background-size: contain;
     height: 500px;
     display: flex;
     justify-content: flex-end;
