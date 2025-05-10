@@ -34,7 +34,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding: 20px;
-  }*/
+  }
 
   header {
     width: 100%;
@@ -47,7 +47,20 @@ body {
     align-items: center;
     padding: 20px;
     flex-wrap: wrap;
-  }
+  }*/
+
+header {
+    background-image: url('../imagem/Foto1.jpg');
+    background-size: cover;      /* ou 'contain' dependendo do efeito desejado */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;                /* Isso aqui não funciona sem um height definido */
+    aspect-ratio: 16 / 9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
 
   header h1 {
     background-color: rgba(131, 253, 237, 0.7);
