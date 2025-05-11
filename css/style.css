@@ -38,6 +38,26 @@ header {
     position: relative;
   }
 
+.mensagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ocupa a altura total da tela */
+    padding: 20px;
+  }
+  
+  .mensagem-container h3 {
+    max-width: 600px;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgba(84, 255, 126, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
   .conteudo {
     margin-top: 50px;
     padding: 20px;
