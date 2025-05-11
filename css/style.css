@@ -25,36 +25,17 @@ body {
     font-weight: bold;
   }
 
-  header {
+header {
     background-image: url('../imagem/Foto9.jpg');
     background-size: cover;
     background-position: center;
-    background-size: contain;
     height: 500px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center; /* centraliza o conteúdo horizontalmente */
     padding: 20px;
-  }
-/*
-  header {
-    width: 100%;
-    background-image: url('../imagem/Foto1.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-  }*/
-
-  header h1 {
-    background-color: rgba(131, 253, 237, 0.7);
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 2.5em;
+    color: white;
+    position: relative;
   }
 
   .conteudo {
@@ -171,4 +152,22 @@ body {
   .btn:last-of-type {
     right: 10px;
   }
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+@media (max-width: 768px) {
+    header {
+      height: 300px; /* altura menor pra telas pequenas */
+      padding: 10px;
+    }
   
+    .header-content {
+      padding: 10px 20px;
+    }
+  
+  }
